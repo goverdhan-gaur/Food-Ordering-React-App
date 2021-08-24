@@ -3,7 +3,12 @@ import AvailableMeals from './AvailableMeals'
 import MealsSummary from './MealsSummary'
 
 const Meals = () => {
-  return <Fragment></Fragment>
+  return (
+    <Fragment>
+      <MealsSummary />
+      <AvailableMeals />
+    </Fragment>
+  )
 }
 
 export default Meals
